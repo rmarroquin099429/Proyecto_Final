@@ -1,4 +1,5 @@
-para subir archivos git add .
+para subir archivos git add . despues git status para subirlo tenemos que poner git commit -a utilizamos la letra i para poder escribir el comentario y esc para  salir luego colocamos :wq que guarda y sale ahora podemos subir los datos con git push debemos colocar usuario y contraseña de git
+
 
 para borrar archivos git commit -a 
 
