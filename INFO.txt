@@ -1,0 +1,5 @@
+para subir archivos git add .
+
+para borrar archivos git commit -a 
+
+solo se deben borrar los archivos desde la carpeta y dar git status para que detecte el cambio y ahi le damos el git commit despues pide usuario contraseña luego git push para subir los cambios
