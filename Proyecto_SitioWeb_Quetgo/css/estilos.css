@@ -1,0 +1,95 @@
+
+@media all and (min-width: 1200px){
+	body{
+	background-color: rgba(136, 146, 191,0.9);
+}
+#mi 
+{
+	bottom: 0%;
+	display: inline-block;
+	left: 20%;
+	width: 100%;
+	background-color: rgba(200, 210, 240,0.5)
+}
+
+}
+
+@media all and (min-width: 992px){
+	body{
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-color: rgba(136, 146, 191,0.9);
+}
+#mi 
+{
+	bottom: 0%;
+	display: inline-block;
+	left: 20%;
+	width: 100%;
+	background-color: rgba(200, 210, 240,0.5)
+}
+}
+
+@media all and (min-width: 142px){
+	body{
+	background-color: rgba(136, 146, 191,0.9);
+}
+#mi 
+{
+	bottom: 0%;
+	display: inline-block;
+	left: 20%;
+	width: 100%;
+	background-color: rgba(200, 210, 240,0.5)
+}
+}
+}
+/*body{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgba(10,16,190,0.4);
+}
+#bot1
+{
+	background-color: rgba(10,16,190,0.01);
+}
+
+#mi 
+{
+	bottom: 0%;
+	display: inline-block;
+	left: 20%;
+	width: 100%;
+	background-color: rgba(200, 210, 240,0.9)
+}
+
+#quetgo
+{
+	font-size: 27px;
+	background-color: rgba(196, 201, 223)
+}
+#s1
+{
+	background-color: rgba(196, 201, 223,0.2)
+}
+#a1
+{
+	font-size: 20px;
+
+}
+#a2
+{
+	font-size: 20px;
+
+}
+#a3
+{
+	font-size: 20px;
+
+}
+#a4
+{
+	font-size: 20px;
+
+}
+*/

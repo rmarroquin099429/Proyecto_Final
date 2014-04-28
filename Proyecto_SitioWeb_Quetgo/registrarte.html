@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Quetgo´s | Registrate</title>
+	<!-- este meta es importante para el responsivo igual que bootstrap-responsive -->
+	<meta name="viewport" content="width=divece-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- barra de opciones de navegacion  -->
+	<nav>
+		<div class="navbar navbar-fixed-top">
+			<div id="s1"class="navbar-inner">
+				<div id="mi" class="container">
+					<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a id="quetgo" href="indexquetgo.html" class="brand">Quetgo´s PRO</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li ><a id="a1" href="indexquetgo.html">Portada</a></li>
+							<li><a id="a2" href="quienes.html">Quienes Somos</a></li>
+							<li><a id="a3" href="contenido.html">Contenido</a></li>
+							<li class="active"><a id="a4" href="Registrarte.html">Registrarte</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- parte centar o contenido de la pagina -->	
+	<div class="container">
+			<div class="hero-unit">
+					<h1>Quetgo´s Pro</h1>
+					<small>Tu Pagina</small>
+			</div>
+	</div>
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span7">
+				<div class="page-header">
+					<h1>Contactame</h1>
+					<small>tu opinicon es valiosa para nosotros</small>
+				</div>
+				<form action="conexion.php" methode='POST' name="contactame" class="form-horizontal">
+					<div class="control-group">
+						<label for="nombre" class="control-label">Nombre</label>
+						<div class="controls">
+							<input type="text" name="nombre">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="apellido" class="control-label">Apellido</label>
+						<div class="controls">
+							<input type="text" name="apellido">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="direccion" class="control-label">Direccion</label>
+						<div class="controls">
+							<input type="text" name="direccion">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="telefono" class="control-label">Telefono</label>
+						<div class="controls">
+							<input type="text" name="telefono">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="correo" class="control-label">Correo</label>
+						<div class="controls">
+							<input type="email" name="correo" placeholder="example@gmail.com">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="mensaje" class="control-label">Mensaje</label>
+						<div class="controls">
+							<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+					<div id="bot1" class="form-actions">
+						<button type="submit"class="btn btn-primary">Enviar</button>
+						<button type="button" class="btn">Cancelar</button>
+					</div>
+
+				</form>
+			</div>
+			<div class="span5">
+				<div class="page-header">
+					<h1>Redes Sociales</h1>
+					<small>Siguenos, Recoiendano, etc</small>
+				</div>
+				<p><a href="http://www.facebook.com/yavallejo" targget="_blank">
+					<img src="img/face.png" height="49" width="298" alt="Facebook">
+				</a></p>
+				<p><a href="http://www.twotter.com/yavallejo" targget="_blank">
+					<img src="img/twitter.png" height="49" width="298" alt="Twitter">
+				</a></p>
+			</div>
+		</div>
+		<footer>
+			<address>
+				<strong>QuetgosPro</strong></br>
+				Previenn Sosa </br>
+				<abbr title="telefono">Tel :</abbr> 56944613 <br>
+				<i class="icon-user icon-white"></i> correo: rudy.innov@gmail.com
+			</address>
+		</footer>
+	</div>
+
+	
+
+		
+
+
+
+
+
+<!-- importante agregar jquery porque activa las funcionalidades de collapse que son de javascript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
