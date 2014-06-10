@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Quetgo´s | Quienes Somos</title>
+	<!-- este meta es importante para el responsivo igual que bootstrap-responsive -->
+	<meta name="viewport" content="width=divece-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<!-- barra de opciones de navegacion  -->
+	<div class="container">
+		<div class="row">
+			<div class="span12">		
+				<nav>
+					<div id="s1"class="navbar navbar-fixed-top">
+						<div id="mi" class="container">
+							<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+							<a id="quetgo" href="index.html" class="brand">Quetgo´s PRO</a>
+							<div class="nav-collapse">
+								<ul class="nav">
+									<li><a id="a2" href="quienes.html">Quienes Somos</a></li>
+									<li><a id="a3" href="contenido.html">Contenido</a></li>
+									<li><a id="a4" href="registrarCl.html">Registrar</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- pantalla desplegable para ingresar a su sesion un usuario -->
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<nav >
+					<div class="span3"></div>
+					<div class="span3"></div>
+					<div class="span3"></div>
+					<div align="bottom" class="span3">
+						<a href="#mimodal" role="button" class="btn" data-toggle="modal"> Iniciar Sesión</a>
+						<div id="mimodal" Class="modal hide fade">
+							<div class="modal-header">
+								<button type="button"class="close" data-dismiss="modal" area-hidden="true">X</button>
+								<h3 id="k"align="center">INICIAR SESIÓN</h3>
+							</div>
+							<form id="modal"action="ValidacionLogin.php" method = "POST">
+								<div class="modal-body">
+										<table align="center">
+											<tr>
+												<td>USUARIO:</td>
+												<td><input class="mediun"name = "usuario"type="text"></td>
+											</tr>
+											<tr>
+												<td>CLAVE:</td>
+												<td><input name = "clave" type="password"></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td><button target="_blank" class="btn btn-primary btn-small" name= "ingresar">INGRESAR</button></td>
+											</tr>
+										</table>
+								</div>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>	
+	</div>
+		
+	<!-- parte centar o contenido de la pagina -->
+	
+				<div class="span3">
+					<nav id="peek" class="mmenu mmenu-opened ">
+					    <div>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					       <li><h1 align="center">Que deseas realizar</h1></li>
+					       <li></li>
+					    </div>
+					    <ul id="mmenu-p1-0" class="mmenu-opened">
+					    	<li></li>
+					    	<li></li>
+					        <li><a id="mmenu-p1-0" href="registrarEm.html">Registrar Empleado</a></li>
+							<li><a id="mmenu-p1-1" href="NewCotizacion.html">Solicitar Cotizacion</a></li>
+							<li><a id="mmenu-p1-2" href="ListaCotizacion.php">lista de Solicitudes</a></li>
+							<li><a id="mmenu-p1-3" href="ListaProductos.php">lista de Productos</a></li>
+							<li><a id="mmenu-p1-4" href="ingresarProducto.html">ingresar nuevo Producto</a></li>
+							<li></li>
+					    	<li></li>
+					    </ul>
+					    <ul align="center">
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li align="center"> 
+								<a href="#">
+									<strong>Quetgos Pro</strong>
+								</a>
+								**--------"Contactanos"---------** </br>
+								°°<abbr title="telefono">Tel :</abbr> 56944613</br>
+								<i class="icon-user icon-white"></i> correo: °°°rudy.innov@gmail.com</br>
+								**-------------------------------------** </br></br>
+					    	</li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    </ul>
+					   
+					</nav>
+				</div>
+
+
+
+		<div class="container" >
+			<div class="hero-unit"  >
+					<div class="row-fluid" >
+						<div class="span12" >
+							<div class='span12' align="center">
+								<h1>Quetgo´s Pro</h1>
+								<small>Tu Pagina</small>
+							</div>
+						</div>
+						<div class="span12">
+							<div class='span12'>
+								<img class="img-rounded"src="img/r1 (2).jpg" alt="index.html">
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!-- par que todo baya en un mismo bloque tenmos que encerar todo dentro de container, hero unit, roe fluid y asi estaran todos en un bloque -->
+		<div class="container">
+				<div class="hero-unit" >
+					<div class="row-fluid">
+						<div class="span12" align="center">
+							<h1 align="center">Quetgo´s Pro</h1>
+									<small align="center">Esta enfoca en un servicio personalizado y las personas que trabajan el vehiculó son profesionales experimentados en las áreas que ofrecemos. Tratamos de ofrecer un Servicio excelente a un buen precio y en un tiempo prudente. Teniendo en mente que el servicio que prestamos es simplemente arte. Nosotros como empres tenemos una forma de trabajar la cual es, la mejor carta de presentación es nuestro excelente trabajo y la satisfacción de nuestros clientes.
+									</small>
+						</div>
+						
+					</div>
+				</div>
+		</div>
+		<div class="container">
+				<div class="hero-unit" >
+					<div class="row-fluid">
+						<div class="span12" align="center">
+							<h1 align="center">VISIÓN</h1>
+									<small align="center">A través del uso de los mejores materiales y mano de obra, darle satisfacción a cada cliente en cada visita que haga a nuestro taller. Dejando un trabajo limpio y radiante en cada uno de nuestros trabajos entregados a clientes felices.
+									</small>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="container">
+				<div class="hero-unit" >
+					<div class="row-fluid">
+						<div class="span12" align="center">
+							<h1 align="center">MISIÓN</h1>
+									<small align="center">Ser el mejor Taller de enderezado, pintura y modificación del país, asegurándonos de que los clientes externos sean los primeros beneficiarios de nuestro excelente servicio y calidad.
+									</small>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="container">
+				<div class="hero-unit" >
+					<div class="row-fluid">
+						<div class="span12" align="center">
+							<h1 align="center">OBJETIVO</h1>
+									<small align="center">Ser la mejor y más confiable empresa de enderezado y pintura de la región ofreciendo los mejores servicios utilizando los mejores materiales para el tipo de trabajo que realizamos para satisfacer las necesidades de nuestros clientes así dándonos a conocer por la calidad de servicio que ofrecemos.
+									</small>
+						</div>
+						
+					</div>
+				</div>
+		</div>
+
+		<!-- buscar -->
+<!-- 		<div class="container">
+			<form action="" class="form-search">
+				<label class="search-query-button">que deseas buscar</label>
+				<input type="text" name="buscar" class="search-query">
+				<button class="btn" type="submit">Buscar</button>
+			</form>
+		</div>
+
+		<div class="container">
+			<div class="input-append">>
+				<input type="text" placeholder="Que busco??">
+				<button class="btn" type="button">ir</button>
+			</div>
+		</div> -->
+		<!--  Controls input() -->
+<!-- 			<form action="ingresar.php" class="form-horizontal">
+				<input type="text" name="nombre" placeholder="Nombre">
+				<input type="password" name="contraseña" placeholder="password">
+				<textarea name="describete" id="" cols="30" rows="10"></textarea>
+				<label for="checkbox">
+					<input type="checkbox" value="">
+						opcion 1
+				</label>
+				<label for="" class="radio">
+					<input type="radio" name="opcionradio" value="opriton1"> opcion 1
+				</label>
+				<label for="" class="radio">
+					<input type="radio" name="opcionradio" value="opriton2"> opcion 2
+				</label>
+				<select name="seleccion" id="">
+					<option value="">safsd</option>
+					<option value="">asdfa</option>
+					<option value="">asfda</option>
+					<option value="">asdfa</option>
+
+				</select>
+				<select name="seleccion" id="" Multiple="multiple">
+					<option value="">asdfa</option>
+					<option value="">adfs</option>
+					<option value="">asdfa</option>
+					<option value="">asdfa</option>
+
+				</select>
+
+			</form>
+			<form action="ingresar.php" class="form-horizontal">
+				<input type="text" name="nombre" placeforlder="contenido" autofocus>
+				<input type="text" placeforlder="contenido" disabled>
+
+			</form> -->
+
+
+		<!--  Validacion de Estados  -->
+
+<!-- 			<form action="ingresar.php" class="form-horizontal">
+
+					<input type="text" class="input-small">
+					<input type="text" class="input-medium">
+					<input type="text" class="input-large">
+					<input type="text" class="input-xlarge">
+					<input type="text" class="input-xxlarge">
+				
+			</form>
+ -->
+
+		<!-- imagenes -->
+
+		<figure>
+			<img class="img-responsive" src="r1 (8).jpg" alt="">
+		</figure>
+
+
+	
+
+		
+
+
+
+
+
+<!-- importante agregar jquery porque activa las funcionalidades de collapse que son de javascript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

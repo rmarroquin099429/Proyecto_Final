@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Quetgo´s | Solo Arte</title>
+	<!-- este meta es importante para el responsivo igual que bootstrap-responsive -->
+	<meta name="viewport" content="width=divece-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<!-- barra de opciones de navegacion  -->
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12">		
+				<nav>
+					<div id="s1"class="navbar navbar-fixed-top">
+						<div id="mi" class="container">
+							<a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+							<a id="quetgo" href="index.html" class="brand">Quetgo´s PRO</a>
+							<div class="nav-collapse">
+								<ul class="nav">
+									<li><a id="a2" href="quienes.html">Quienes Somos</a></li>
+									<li><a id="a3" href="contenido.html">Contenido</a></li>
+									<li><a id="a4" href="registrarCl.html">Registrar</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- pantalla desplegable para ingresar a su sesion un usuario -->
+	<div class="container">
+		<div class="row">
+				<nav >
+					<div align="bottom">
+						<a href="#mimodal" role="button" class="btn btn-primary" data-toggle="modal"> INICIAR SESIÓN</a>
+						<div id="mimodal" Class="modal hide fade">
+							<div class="modal-header">
+								<button type="button"class="close" data-dismiss="modal" area-hidden="true">X</button>
+								<h3 id="k"align="center">INICIAR SESIÓN</h3>
+							</div>
+							<form id="modal"action="ValidacionLogin.php" method = "POST">
+								<div class="modal-body">
+										<table align="center">
+											<tr>
+												<td>USUARIO:</td>
+												<td><input class="mediun"name = "usuario"type="text"></td>
+											</tr>
+											<tr>
+												<td>CLAVE:</td>
+												<td><input name = "clave" type="password"></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td><button target="_blank" class="btn btn-primary btn-small" name= "ingresar">INGRESAR</button></td>
+											</tr>
+										</table>
+								</div>
+							</form>
+						</div>
+					</div>
+				</nav>
+		</div>	
+	</div>	
+			
+	<!-- parte centar o contenido de la pagina -->
+
+		
+	<!--		session_start();
+	 		if ($_SESSION['username'] => 1) 
+		 		{ 
+	?>
+		 	<h1 align="left">  echo $_SESSION['usarname']; ?></h1>
+		 		
+		 
+				} 	
+		?>
+	-->
+
+				<div class="span3">
+					<nav id="peek" class="mmenu mmenu-opened ">
+					    <div>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					       <li><h1 align="center">Que deseas realizar</h1></li>
+					       <li></li>
+					    </div>
+					    <ul id="mmenu-p1-0" class="mmenu-opened">
+					    	<li></li>
+					    	<li></li>
+					        <li><a id="mmenu-p1-0" href="registrarEm.html">Registrar Empleado</a></li>
+							<li><a id="mmenu-p1-1" href="NewCotizacion.html">Solicitar Cotizacion</a></li>
+							<li><a id="mmenu-p1-2" href="ListaCotizacion.php">lista de Solicitudes</a></li>
+							<li><a id="mmenu-p1-3" href="ListaProductos.php">lista de Productos</a></li>
+							<li><a id="mmenu-p1-4" href="ingresarProducto.html">ingresar nuevo Producto</a></li>
+							<li></li>
+					    	<li></li>
+					    </ul>
+					    <ul align="center">
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li align="center"> 
+								<a href="#">
+									<strong>Quetgos Pro</strong>
+								</a>
+								**--------"Contactanos"---------** </br>
+								°°<abbr title="telefono">Tel :</abbr> 56944613</br>
+								<i class="icon-user icon-white"></i> correo: °°°rudy.innov@gmail.com</br>
+								**-------------------------------------** </br></br>
+					    	</li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    	<li></li>
+					    </ul>
+					   
+					</nav>
+				</div>
+
+				
+				<div class="row">
+					<div class="span12">
+						<ul class="thumbnails">
+							<li class="span12">
+								<a class="thumbnail" href="#">
+									<img src="img/umg.jpg" alt="">
+								</a>
+								<h3>Univercidad Mariano Galvez (UMG)</h3>
+								<p>universidad guatemalteca con ubicaciones centales en la ciudad de Guatemala</p>
+							</li>
+						</ul>
+						<div class="span8">
+							<a href="http://www.umg.edu.gt" class="btn">Leer Mas</a>
+						</div>
+					</div>
+					<div class="span12">
+						<ul class="thumbnails">
+							<li class="span12">
+								<a class="thumbnail" href="#">
+									<img src="img/saymont.jpg" alt="">
+								</a>
+								<h3>Amistad</h3>
+								<p>recuerdos enviados por personas con sentimientos mutuos</p>
+							</li>
+						</ul>
+						<div class="span8">
+						 	<a href="https://www.facebook.com/runguate/photos_albums" class="btn">Leer mas</a>
+						</div>
+					</div>
+					<div class="span12">
+						<ul class="thumbnails">
+							<li class="span12">
+								<a class="thumbnail" href="#">
+									<img src="img/1280x1024_1.jpg" alt="">
+								</a>
+								<h3>TRABAJOS REALIZADOS POR QUETGOSPRO</h3>
+								<p>Coleccion de imagenes</p>
+							</li>
+						</ul>
+						<div class="span8">
+							<a href="contenido.html" class="btn">Leer mas</a>
+						</div>
+					</div>
+				</div>
+
+<!-- importante agregar jquery porque activa las funcionalidades de collapse que son de javascript-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
